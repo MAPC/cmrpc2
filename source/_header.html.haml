@@ -1,0 +1,33 @@
+%header#header{class: ("alt" if current_page.path == "index.html")}
+  %h1#logo
+    %a{:href => "index.html"}
+      Central Mass. Public Health Indicators
+      %span by CMRPC
+  %nav#nav
+    %ul
+      %li.current
+        %a{:href => "index.html"} Home
+      %li.submenu
+        %a{:href => "#"} Select Your City
+        %ul
+          %li
+            = link_to 'Barre', '/barre.html'
+          %li
+            = link_to 'Blackstone', '/blackstone.html'
+          %li
+            = link_to 'Charlton', '/charlton.html'
+          / %li.submenu
+          /   %a{:href => "#"} Submenu
+          /   %ul
+          /     %li
+          /       %a{:href => "#"} Dolore Sed
+          /     %li
+          /       %a{:href => "#"} Consequat
+          /     %li
+          /       %a{:href => "#"} Lorem Magna
+          /     %li
+          /       %a{:href => "#"} Sed Magna
+          /     %li
+          /       %a{:href => "#"} Ipsum Nisl
+      / %li
+      /   %a.button.special{:href => "#"} Sign Up
