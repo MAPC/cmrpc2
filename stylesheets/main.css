@@ -1740,7 +1740,7 @@
 		input[type="password"]:focus,
 		input[type="email"]:focus,
 		textarea:focus {
-			border-color: #83d3c9;
+			border-color: rgb(58,86,102);
 		}
 
 	input[type="text"],
@@ -2065,8 +2065,8 @@
 		input[type="submit"].special,
 		input[type="reset"].special,
 		.button.special {
-			background: #83d3c9;
-			border-color: #83d3c9;
+			background: rgb(58,86,102);
+			border-color: rgb(58,86,102);
 			color: #fff !important;
 		}
 
@@ -2106,7 +2106,7 @@
 		}
 
 		.wrapper.style2 {
-			background-color: #83d3c9;
+			background-color: rgb(58,86,102);
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
@@ -2121,7 +2121,7 @@
 			.wrapper.style2 .button.special {
 				background: #fff;
 				border-color: #fff;
-				color: #83d3c9 !important;
+				color: rgb(58,86,102) !important;
 			}
 
 				.wrapper.style2 .button.special:hover {
@@ -2342,7 +2342,7 @@
 			}
 
 			.dropotron > li:hover > a {
-				background: #83d3c9;
+				background: rgb(58,86,102);
 				color: #fff;
 			}
 
@@ -2394,7 +2394,7 @@
 
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #645862;
+		background-color: transparent;
 		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
