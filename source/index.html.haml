@@ -4,22 +4,15 @@ title: Central Mass Regional Planning Commission
 
 / Banner
 %section#banner
-  .inner
+  .inner{style: 'background-color:transparent;'}
     %header
       %h1
-    %p
-      CMRPC Community
-      = succeed "" do
-        %strong Health
-      %br/
-      Indicators
-      %br/
     %footer
      
 / Main
 %article#main 
   %header.special.container
-    %span.icon.fa-bar-chart-o
+    %span.icon.fa-users
     %h2
       Mapping Community Health Across Central Masschusetts
       %br/
@@ -38,7 +31,7 @@ title: Central Mass Regional Planning Commission
   / One
   %section.wrapper.style2.container.special-alt
     .row{:class => "50%"}
-      .8u{:class => "12u(narrower)"}
+      .16u{:class => "12u(narrower)"}
         %header
           %h2
             Identifying indicators of active living, healthy eating, and safe physical environments
@@ -46,78 +39,28 @@ title: Central Mass Regional Planning Commission
         %footer
           %ul.buttons
             %li
-              %a.button{:href => "#"} Methodology
-      .4u{:class => "12u(narrower) important(narrower)"}
-        %ul.featured-icons
-          %li
-            %span.icon.fa-clock-o
-              %span.label Feature 1
-          %li
-            %span.icon.fa-volume-up
-              %span.label Feature 2
-          %li
-            %span.icon.fa-laptop
-              %span.label Feature 3
-          %li
-            %span.icon.fa-inbox
-              %span.label Feature 4
-          %li
-            %span.icon.fa-lock
-              %span.label Feature 5
-          %li
-            %span.icon.fa-cog
-              %span.label Feature 6
+              %a.button{:href => "about.html"} About
   / Two
   %section.wrapper.style1.container.special
     .row
       .4u{:class => "12u(narrower)"}
-        %section
-          %span.icon.featured.fa-check
-          %header
-            %h3 Barre, MA
-          %p Read the full report on Barre.
+        %a{href:'barre.html', style: 'cursor: pointer;'}
+          %section
+            %span.icon.featured.fa-bar-chart
+            %header
+              %h3 Barre, MA
+            %p View farmer's markets, environmental justice data, fitness centers and parks information on an online map of Barre
       .4u{:class => "12u(narrower)"}
-        %section
-          %span.icon.featured.fa-check
-          %header
-            %h3 Blackstone, MA
-          %p Read the full report on Blackstone.
+        %a{href:'blackstone.html', style: 'cursor: pointer;'}
+          %section
+            %span.icon.featured.fa-bar-chart
+            %header
+              %h3 Blackstone, MA
+            %p View farmer's markets, environmental justice data, fitness centers and parks information on an online map of Blackstone.
       .4u{:class => "12u(narrower)"}
-        %section
-          %span.icon.featured.fa-check
-          %header
-            %h3 Charlton, MA
-          %p Read the full report on Chartlon.
-  / Three
-  %section.wrapper.style3.container.special
-    %header.major
-      %h2
-        Explore the Map
-    .row
-      .6u{:class => "12u(narrower)"}
-        %section
-          %a.image.featured{:href => "#"}
-            %img{:alt => "", :src => "images/pic01.jpg"}/
-          %header
-            %h3 Blackstone
-          %p View farmer's markets, environmental justice data, fitness centers and parks information on an online map of Blackstone.
-      .6u{:class => "12u(narrower)"}
-        %section
-          %a.image.featured{:href => "#"}
-            %img{:alt => "", :src => "images/pic02.jpg"}/
-          %header
-            %h3 Charlton
-          %p View farmer's markets, environmental justice data, fitness centers and parks information on an online map of Charlton.
-    .row
-      .6u{:class => "12u(narrower)"}
-        %section
-          %a.image.featured{:href => "#"}
-            %img{:alt => "", :src => "images/pic03.jpg"}/
-          %header
-            %h3 Barre
-          %p Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.
-      .6u{:class => "12u(narrower)"}
-    %footer.major
-      %ul.buttons
-        %li
-          %a.button{:href => "#"} See More
+        %a{href:'charlton.html', style: 'cursor: pointer;'}
+          %section
+            %span.icon.featured.fa-bar-chart
+            %header
+              %h3 Charlton, MA
+            %p View farmer's markets, environmental justice data, fitness centers and parks information on an online map of Charlton.
