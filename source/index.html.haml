@@ -4,32 +4,24 @@ title: Central Mass Regional Planning Commission
 
 / Banner
 %section#banner
-  /
-    ".inner" is set up as an inline-block so it automatically expands
-    in both directions to fit whatever's inside it. This means it won't
-    automatically wrap lines, so be sure to use line breaks where
-    appropriate (<br />).
   .inner
     %header
-      %h2
+      %h1
     %p
       CMRPC Community
-      = succeed "," do
+      = succeed "" do
         %strong Health
       %br/
       Indicators
       %br/
     %footer
-      %ul.buttons.vertical
-        %li
-          %a.button.fit.scrolly{:href => "#main"} Learn More
+     
 / Main
 %article#main 
   %header.special.container
     %span.icon.fa-bar-chart-o
     %h2
-      Mapping Community Health Indicators
-      Across Central Masschusetts
+      Mapping Community Health Across Central Masschusetts
       %br/
     /
       Turns out
@@ -50,11 +42,11 @@ title: Central Mass Regional Planning Commission
         %header
           %h2
             Identifying indicators of active living, healthy eating, and safe physical environments
-        %p CMRPC engaged with three municipalities within the Central Massachusetts region1 to identify indicators of active living, healthy eating, and safe physical environments. The three partnering municipalities were Barre, Blackstone, and Charlton. The participating towns assisted with determining health indicators and providing data to the project team. For the purposes of this project, indicators are defined as measurable data points that “monitor progress on economic and social goals. [They] describe observed societal problems or assets and help represent a normative stance on related issues."2 The goal of the project is to help our communities integrate health into their municipal planning processes through the use of indicators. Indicators allow policymakers and the general public to not only better understand the community they live in, but to also track the progress of that community on a variety of levels and sectors. The data collected and reported provides in-depth snapshots that allow municipalities to track longitudinal trends, set community goals, and prioritize action.
+        %p CMRPC engaged with three municipalities within the Central Massachusetts region to identify indicators of active living, healthy eating, and safe physical environments. The three partnering municipalities were Barre, Blackstone, and Charlton. The participating towns assisted with determining health indicators and providing data to the project team. For the purposes of this project, indicators are defined as measurable data points that “monitor progress on economic and social goals. They describe observed societal problems or assets and help represent a normative stance on related issues." The goal of the project is to help our communities integrate health into their municipal planning processes through the use of indicators. Indicators allow policymakers and the general public to not only better understand the community they live in, but to also track the progress of that community on a variety of levels and sectors. The data collected and reported provides in-depth snapshots that allow municipalities to track longitudinal trends, set community goals, and prioritize action.
         %footer
           %ul.buttons
             %li
-              %a.button{:href => "#"} Find Out More
+              %a.button{:href => "#"} Methodology
       .4u{:class => "12u(narrower) important(narrower)"}
         %ul.featured-icons
           %li
@@ -83,24 +75,24 @@ title: Central Mass Regional Planning Commission
           %span.icon.featured.fa-check
           %header
             %h3 Barre, MA
-          %p Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.
+          %p Read the full report on Barre.
       .4u{:class => "12u(narrower)"}
         %section
           %span.icon.featured.fa-check
           %header
             %h3 Blackstone, MA
-          %p Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.
+          %p Read the full report on Blackstone.
       .4u{:class => "12u(narrower)"}
         %section
           %span.icon.featured.fa-check
           %header
             %h3 Charlton, MA
-          %p Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.
+          %p Read the full report on Chartlon.
   / Three
   %section.wrapper.style3.container.special
     %header.major
       %h2
-        Read the Report
+        Explore the Map
     .row
       .6u{:class => "12u(narrower)"}
         %section
@@ -108,14 +100,14 @@ title: Central Mass Regional Planning Commission
             %img{:alt => "", :src => "images/pic01.jpg"}/
           %header
             %h3 Blackstone
-          %p Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.
+          %p View farmer's markets, environmental justice data, fitness centers and parks information on an online map of Blackstone.
       .6u{:class => "12u(narrower)"}
         %section
           %a.image.featured{:href => "#"}
             %img{:alt => "", :src => "images/pic02.jpg"}/
           %header
             %h3 Charlton
-          %p Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.
+          %p View farmer's markets, environmental justice data, fitness centers and parks information on an online map of Charlton.
     .row
       .6u{:class => "12u(narrower)"}
         %section
@@ -125,27 +117,7 @@ title: Central Mass Regional Planning Commission
             %h3 Barre
           %p Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.
       .6u{:class => "12u(narrower)"}
-       / %section
-         / %a.image.featured{:href => "#"}
-          /  %img{:alt => "", :src => "images/pic04.jpg"}/
-          /%header
-           / %h3 And Another Train
-          /%p Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.
     %footer.major
       %ul.buttons
         %li
           %a.button{:href => "#"} See More
-/ CTA
-%section#cta
-  %header
-    %h2
-      Ready to do
-      = succeed "?" do
-        %strong something
-    %p Proin a ullamcorper elit, et sagittis turpis integer ut fermentum.
-  %footer
-    %ul.buttons
-      %li
-        %a.button.special{:href => "#"} Take My Money
-      %li
-        %a.button{:href => "#"} LOL Wut
